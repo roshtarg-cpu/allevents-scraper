@@ -1,0 +1,35 @@
+{
+  "title": "AllEvents Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "city": {
+      "title": "City",
+      "type": "string",
+      "description": "City to scrape events from (e.g., 'washington', 'philadelphia', 'baltimore')",
+      "default": "washington",
+      "editor": "textfield"
+    },
+    "category": {
+      "title": "Category (Optional)",
+      "type": "string",
+      "description": "Filter by category/search term (e.g., 'music', 'art', 'festival'). Leave empty for all events.",
+      "editor": "textfield"
+    },
+    "maxResults": {
+      "title": "Max Results",
+      "type": "integer",
+      "description": "Maximum number of events to scrape",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 1000
+    },
+    "useProxy": {
+      "title": "Use Apify Proxy",
+      "type": "boolean",
+      "description": "Enable Apify residential proxies",
+      "default": false
+    }
+  },
+  "required": ["city"]
+}

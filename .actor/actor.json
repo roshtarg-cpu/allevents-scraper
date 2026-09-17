@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "allevents-scraper",
+  "title": "AllEvents.in Event Scraper",
+  "description": "Scrape events from AllEvents.in - titles, dates, locations, prices, categories. Fast and reliable event data extraction.",
+  "version": "1.0.0",
+  "input": "input_schema.json",
+  "dockerfile": "./Dockerfile"
+}

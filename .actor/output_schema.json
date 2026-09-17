@@ -1,0 +1,14 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "AllEvents Scraper Output",
+  "description": "Events scraped from AllEvents.in",
+  "type": "object",
+  "properties": {
+    "events": {
+      "type": "string",
+      "title": "Scraped Events",
+      "description": "Events data from AllEvents.in",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+    }
+  }
+}
