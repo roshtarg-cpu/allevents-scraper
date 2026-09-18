@@ -7,62 +7,74 @@
     "title": {
       "title": "Event Title",
       "type": "string",
-      "description": "Name of the event"
+      "description": "Name of the event",
+      "editor": "textfield"
     },
     "url": {
       "title": "Event URL",
       "type": "string",
-      "description": "Full URL to the event page"
+      "description": "Full URL to the event page",
+      "editor": "textfield"
     },
     "date": {
       "title": "Event Date",
       "type": "string",
-      "description": "Event date"
+      "description": "Event date",
+      "editor": "textfield"
     },
     "time": {
       "title": "Event Time",
       "type": "string",
-      "description": "Event start time"
+      "description": "Event start time",
+      "editor": "textfield"
     },
     "location": {
       "title": "Location",
       "type": "string",
-      "description": "Event venue or location"
+      "description": "Event venue or location",
+      "editor": "textfield"
     },
     "category": {
       "title": "Category",
       "type": "string",
-      "description": "Event category (music, arts, sports, etc.)"
+      "description": "Event category (music, arts, sports, etc.)",
+      "editor": "textfield"
     },
     "price": {
       "title": "Price",
       "type": "string",
-      "description": "Ticket price or 'Free'"
+      "description": "Ticket price or 'Free'",
+      "editor": "textfield"
     },
     "description": {
       "title": "Description",
       "type": "string",
-      "description": "Event description text"
+      "description": "Event description text",
+      "editor": "textarea"
     },
     "image": {
       "title": "Image URL",
       "type": "string",
-      "description": "Event poster/image URL"
+      "description": "Event poster/image URL",
+      "editor": "textfield"
     },
     "organizer": {
       "title": "Organizer",
       "type": "string",
-      "description": "Event organizer name"
+      "description": "Event organizer name",
+      "editor": "textfield"
     },
     "phone": {
       "title": "Phone",
       "type": "string",
-      "description": "Contact phone number"
+      "description": "Contact phone number",
+      "editor": "textfield"
     },
     "email": {
       "title": "Email",
       "type": "string",
-      "description": "Contact email address"
+      "description": "Contact email address",
+      "editor": "textfield"
     }
   },
   "required": ["title", "url"]
