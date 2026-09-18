@@ -5,5 +5,6 @@
   "description": "Scrape events from AllEvents.in - titles, dates, locations, prices, categories. Fast and reliable event data extraction.",
   "version": "1.0",
   "input": "input_schema.json",
+  "output": "output_schema.json",
   "dockerfile": "./Dockerfile"
 }
